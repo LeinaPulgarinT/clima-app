@@ -17,7 +17,8 @@ function App() {
     if (ciudad === "") return;
 
     const consultarAPI = async () => {
-      const appId = "88030114c5e47763a011a75e7a10c633";
+      const appId = "cd8d60f724bdd0e8329123940a33191d";
+
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
       // const url = `https://api.darksky.net/forecast/88030114c5e47763a011a75e7a10c633/LAT,L`;
 
